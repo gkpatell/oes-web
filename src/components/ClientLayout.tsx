@@ -29,7 +29,6 @@ const Footer = () => {
             <h3 className="font-semibold text-lg mb-4">Visit</h3>
             <ul className="space-y-2">
               <li><Link href="/maps-and-directions" className="nav-link">Maps & Directions</Link></li>
-              <li><Link href="/event-calendar" className="nav-link">Events</Link></li>
               <li><Link href="/cafe" className="nav-link">Café</Link></li>
             </ul>
           </div>
