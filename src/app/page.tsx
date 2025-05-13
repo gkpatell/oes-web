@@ -143,27 +143,27 @@ export default function Home() {
                 </Link>
               </div>
               <div>
-                <h3 className="text-2xl font-light mb-4">Quantum Science</h3>
+                <h3 className="text-2xl font-light mb-4">Civil & Environmental Engineering</h3>
                 <p className="text-muted-foreground mb-6">
-                  Pushing the boundaries of quantum computing and quantum materials research.
+                  Pushing the boundaries of civil research for cleaner & greener environment.
                 </p>
                 <Link 
                   href="/research-portal/quantum"
                   className="inline-flex items-center gap-2 nav-link"
                 >
-                  Explore Quantum Initiative <ArrowRight className="h-4 w-4" />
+                  Explore CEE <ArrowRight className="h-4 w-4" />
                 </Link>
               </div>
               <div>
-                <h3 className="text-2xl font-light mb-4">Urban Innovation</h3>
+                <h3 className="text-2xl font-light mb-4">Chemical & Biomolecular Technology</h3>
                 <p className="text-muted-foreground mb-6">
-                  Creating solutions for smart cities and sustainable urban development.
+                  Breaking grounds in soil studies and environmental chemical phenomena.
                 </p>
                 <Link 
                   href="/research-portal/urban"
                   className="inline-flex items-center gap-2 nav-link"
                 >
-                  Explore Urban Research <ArrowRight className="h-4 w-4" />
+                  Explore ChBE <ArrowRight className="h-4 w-4" />
                 </Link>
               </div>
               <div>
@@ -175,7 +175,7 @@ export default function Home() {
                   href="/research-portal/newt"
                   className="inline-flex items-center gap-2 nav-link"
                 >
-                  Explore NEWT <ArrowRight className="h-4 w-4" />
+                  Explore RWI <ArrowRight className="h-4 w-4" />
                 </Link>
               </div>
             </div>

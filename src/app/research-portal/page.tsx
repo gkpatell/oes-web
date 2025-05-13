@@ -33,10 +33,15 @@ export default function ResearchPortalPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* RAMI */}
-            <Link href="/research-portal/rami" className="group">
-              <div className="architectural-image aspect-[4/3] mb-6">
+            <Link
+              href="https://rami.rice.edu/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group"
+            >
+              <div className="architectural-image aspect-[3/2] mb-6">
                 <Image
-                  src="/lab-equip.jpg"
+                  src="/Rice_Rami.png"
                   alt="RAMI Lab"
                   fill
                   className="object-cover"
@@ -47,10 +52,15 @@ export default function ResearchPortalPage() {
             </Link>
 
             {/* MSNE */}
-            <Link href="/research-portal/msne" className="group">
-              <div className="architectural-image aspect-[4/3] mb-6">
+            <Link
+              href="https://msne.rice.edu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group"
+            >
+              <div className="architectural-image aspect-[3/2] mb-6">
                 <Image
-                  src="/oes-experiment.jpeg"
+                  src="/Rice_MSNE.png"
                   alt="MSNE Lab"
                   fill
                   className="object-cover"
@@ -61,10 +71,15 @@ export default function ResearchPortalPage() {
             </Link>
 
             {/* ChBE */}
-            <Link href="/research-portal/chbe" className="group">
-              <div className="architectural-image aspect-[4/3] mb-6">
+            <Link
+              href="https://chbe.rice.edu/research"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group"
+            >
+              <div className="architectural-image aspect-[3/2] mb-6">
                 <Image
-                  src="/oes-lab-experiment.jpeg"
+                  src="/Rice_ChBE.png"
                   alt="ChBE Lab"
                   fill
                   className="object-cover"
@@ -74,12 +89,17 @@ export default function ResearchPortalPage() {
               <p className="text-muted-foreground">Chemical and Biomolecular Engineering</p>
             </Link>
 
-            {/* NEWT */}
-            <Link href="/research-portal/newt" className="group">
-              <div className="architectural-image aspect-[4/3] mb-6">
+            {/* RWI */}
+            <Link
+              href="https://water.rice.edu/research-thrusts"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group"
+            >
+              <div className="architectural-image aspect-[3/2] mb-6">
                 <Image
-                  src="/oes-lab-people.jpg"
-                  alt="NEWT Lab"
+                  src="/Rice_Water.png"
+                  alt="WaTer Lab"
                   fill
                   className="object-cover"
                 />
@@ -88,12 +108,17 @@ export default function ResearchPortalPage() {
               <p className="text-muted-foreground">Rice Water Institute</p>
             </Link>
 
-            {/* Quantum Initiative */}
-            <Link href="/research-portal/quantum" className="group">
-              <div className="architectural-image aspect-[4/3] mb-6">
+            {/* Chemistry */}
+            <Link
+              href="https://chemistry.rice.edu/research-disciplines"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group"
+            >
+              <div className="architectural-image aspect-[3/2] mb-6">
                 <Image
-                  src="/oes-ece-place.jpeg"
-                  alt="Quantum Lab"
+                  src="/Rice_Chemistry.png"
+                  alt="Chemistry"
                   fill
                   className="object-cover"
                 />
@@ -102,25 +127,30 @@ export default function ResearchPortalPage() {
               <p className="text-muted-foreground">Chemistry</p>
             </Link>
 
-            {/* Carbon Hub */}
-            <Link href="/research-portal/carbon-hub" className="group">
+            {/* CEE */}
+            <Link
+              href="https://cee.rice.edu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group"
+            >
               <div className="architectural-image aspect-[4/3] mb-6">
                 <Image
-                  src="/lab-floor4.jpg"
-                  alt="Carbon Hub Lab"
+                  src="/Rice_CEE.png"
+                  alt="Civil & Environmental Engineering"
                   fill
                   className="object-cover"
                 />
               </div>
               <h3 className="text-xl mb-2">CEE</h3>
-              <p className="text-muted-foreground">Sustainable Energy and Materials</p>
+              <p className="text-muted-foreground">Civil & Environmental Engineering</p>
             </Link>
 
-            {/* Urban Research */}
+            {/* Physics */}
             <Link href="/research-portal/urban" className="group">
               <div className="architectural-image aspect-[4/3] mb-6">
                 <Image
-                  src="/lab-desk.jpg"
+                  src="/Rice_Physics.png"
                   alt="Urban Research Lab"
                   fill
                   className="object-cover"
@@ -134,7 +164,7 @@ export default function ResearchPortalPage() {
             <Link href="/research-portal/ece" className="group">
               <div className="architectural-image aspect-[4/3] mb-6">
                 <Image
-                  src="/lab-floor4.jpg"
+                  src="/Rice_ECE.png"
                   alt="ECE Lab"
                   fill
                   className="object-cover"

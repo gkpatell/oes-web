@@ -37,8 +37,7 @@ export default function MapsAndDirectionsPage() {
                 <p className="font-semibold">
                   Ralph S. O&apos;Connor Building of Engineering and Sciences
                 </p>
-                <p>6100 Main St.</p>
-                <p>Houston, TX 77005-1827</p>
+                <p>Campanile Rd, Houston, TX 77005-1827</p>
               </div>
             </div>
             <p className="mb-4">
@@ -65,17 +64,13 @@ export default function MapsAndDirectionsPage() {
             </CardHeader>
             <CardContent>
               <ol className="list-decimal list-inside space-y-2">
-                <li>Take Interstate 80 towards Berkeley.</li>
-                <li>Exit at University Avenue.</li>
-                <li>Head east on University Avenue for about 1 mile.</li>
-                <li>Turn right on Oxford Street.</li>
-                <li>
-                  The Advanced Research Center will be on your left after two
-                  blocks.
-                </li>
+                <li>From Downtown Houston, take I-45 South (Gulf Freeway) toward Galveston.</li>
+                <li>Use exit 47B toward University Blvd East and merge onto University Blvd.</li>
+                <li>Continue on University Blvd for about 0.7 miles, then turn right onto Main St.</li>
+                <li>Continue on Main St for 0.5 miles; the Ralph S. O’Connor Building will be on your right at 6100 Main St.</li>
               </ol>
               <p className="mt-4">
-                Parking is available in the nearby public parking structures.
+                Visitor parking is available in the Central Campus Parking Garage located on Rice Blvd.
               </p>
             </CardContent>
           </Card>
@@ -89,22 +84,16 @@ export default function MapsAndDirectionsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <h3 className="font-semibold mb-2">
-                By BART (Bay Area Rapid Transit):
-              </h3>
+              <h3 className="font-semibold mb-2">By METRORail (Red Line):</h3>
               <ol className="list-decimal list-inside space-y-2 mb-4">
-                <li>Take BART to the Downtown Berkeley station.</li>
-                <li>Exit the station and head west on Center Street.</li>
-                <li>Turn right on Oxford Street.</li>
-                <li>
-                  Walk two blocks north. The Advanced Research Center will be on
-                  your left.
-                </li>
+                <li>Board the METRORail Red Line toward Fannin South.</li>
+                <li>Exit at the Rice University station.</li>
+                <li>Walk east on University Blvd to Main St.</li>
+                <li>Turn right on Main St; the building will be on your right.</li>
               </ol>
               <h3 className="font-semibold mb-2">By Bus:</h3>
               <p>
-                Several AC Transit bus lines stop near the Advanced Research
-                Center. Use the AC Transit trip planner for specific routes.
+                METRO Bus Route 41 serves University Blvd. Disembark at University Blvd & Main St and walk to 6100 Main St.
               </p>
             </CardContent>
           </Card>
@@ -114,32 +103,32 @@ export default function MapsAndDirectionsPage() {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Plane className="w-5 h-5" />
-                From the Airport
+                From Airports
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <h3 className="font-semibold mb-2">
-                From Oakland International Airport (OAK):
-              </h3>
-              <ol className="list-decimal list-inside space-y-2 mb-4">
-                <li>Take the BART connector to the Coliseum BART station.</li>
-                <li>
-                  Board a Richmond-bound train and exit at the Downtown Berkeley
-                  station.
-                </li>
-                <li>Follow the directions from the BART station above.</li>
-              </ol>
-              <h3 className="font-semibold mb-2">
-                From San Francisco International Airport (SFO):
-              </h3>
-              <ol className="list-decimal list-inside space-y-2">
-                <li>Take the AirTrain to the BART station within SFO.</li>
-                <li>
-                  Board a Richmond-bound train and exit at the Downtown Berkeley
-                  station.
-                </li>
-                <li>Follow the directions from the BART station above.</li>
-              </ol>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="font-semibold mb-2">From George Bush Intercontinental Airport (IAH):</h3>
+                  <ol className="list-decimal list-inside space-y-2">
+                    <li>Exit IAH via John F. Kennedy Blvd and merge onto I-69/US-59 South toward downtown Houston.</li>
+                    <li>Continue on I-69/US-59 S for about 12 miles.</li>
+                    <li>Take exit 136B toward Greenbriar Dr / Main St.</li>
+                    <li>Turn left onto Greenbriar Dr, then right onto Main St.</li>
+                    <li>The Ralph S. O’Connor Building will be on your right at 6100 Main St.</li>
+                  </ol>
+                </div>
+                <div>
+                  <h3 className="font-semibold mb-2">From William P. Hobby Airport (HOU):</h3>
+                  <ol className="list-decimal list-inside space-y-2">
+                    <li>Exit HOU onto Airport Blvd heading west.</li>
+                    <li>Continue onto Telephone Rd for approximately 1.5 miles.</li>
+                    <li>Turn right onto Martin Luther King Blvd and follow for 2 miles.</li>
+                    <li>Turn left onto Main St; the building will be on your left at 6100 Main St.</li>
+                  </ol>
+                </div>
+              </div>
+              <p className="mt-4">Travel time is approximately 30–45 minutes depending on traffic.</p>
             </CardContent>
           </Card>
         </TabsContent>

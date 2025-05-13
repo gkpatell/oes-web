@@ -14,14 +14,32 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><Link href="/about" className="nav-link">About O'Connor</Link></li>
               <li><Link href="/directory" className="nav-link">Directory</Link></li>
-              <li><Link href="/news" className="nav-link">News</Link></li>
+              <li>
+                <Link
+                  href="https://news.rice.edu"
+                  className="nav-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  News
+                </Link>
+              </li>
             </ul>
           </div>
           <div>
             <h3 className="font-semibold text-lg mb-4">Research</h3>
             <ul className="space-y-2">
               <li><Link href="/research-portal" className="nav-link">Research Portal</Link></li>
-              <li><Link href="/publications" className="nav-link">Publications</Link></li>
+              <li>
+                <Link
+                  href="https://magazine.rice.edu"
+                  className="nav-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Rice Magazine
+                </Link>
+              </li>
               <li><Link href="/spaces-and-facilities" className="nav-link">Facilities</Link></li>
             </ul>
           </div>
@@ -36,7 +54,6 @@ const Footer = () => {
             <h3 className="font-semibold text-lg mb-4">Emergency</h3>
             <ul className="space-y-2">
               <li><Link href="/emergency-info" className="nav-link">Emergency Information</Link></li>
-              <li><a href="tel:+1-713-348-6000" className="nav-link">Emergency Contact</a></li>
             </ul>
           </div>
         </div>

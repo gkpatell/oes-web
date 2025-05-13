@@ -48,7 +48,6 @@ export default function AboutPage() {
         <TabsList>
           <TabsTrigger value="history">History</TabsTrigger>
           <TabsTrigger value="leadership">Leadership</TabsTrigger>
-          <TabsTrigger value="departments">Departments</TabsTrigger>
         </TabsList>
         <TabsContent value="history">
           <Card>
@@ -61,16 +60,13 @@ export default function AboutPage() {
             <CardContent>
               <ul className="space-y-4">
                 <li>
-                  <strong>1985:</strong> Founded as a small research unit within
-                  the university.
+                  <strong>1948:</strong> Founded as a new science-engineering building as Abercrombie Engineering Laboratory
                 </li>
                 <li>
-                  <strong>1995:</strong> Expanded to become an independent
-                  research center with a focus on interdisciplinary studies.
+                  <strong>1961:</strong> Abercrombie Lab becomes home to the first Rice Computer - the R1, 54-bit tagged digital computer.
                 </li>
                 <li>
-                  <strong>2005:</strong> Opened our current state-of-the-art
-                  facility, tripling our research capacity.
+                  <strong>1964:</strong> Biomedical Lab of Willaim Akers makes its home in Abercrombie Lab to develop the first artificial heart.
                 </li>
                 <li>
                   <strong>2015:</strong> Launched our first international
@@ -96,26 +92,26 @@ export default function AboutPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {[
                   {
-                    name: "Emily Chen",
-                    role: "Director",
+                    name: "Brad Thacker",
+                    role: "Director of Operations",
                     image:
                       "https://utfs.io/f/aLqPSH9rfhqDaIQnmg9rfhqD02FQVB16zxmJKIoAnEHvp954",
                   },
                   {
-                    name: "Michael Johnson",
-                    role: "Deputy Director",
+                    name: "Dan McGarry III",
+                    role: "Assistant Director, Construction, Maintenance & Events",
                     image:
                       "https://utfs.io/f/aLqPSH9rfhqDaIQnmg9rfhqD02FQVB16zxmJKIoAnEHvp954",
                   },
                   {
-                    name: "Sarah Thompson",
-                    role: "Head of Research",
+                    name: "Calvin Rawls",
+                    role: "Facilities Management Coordinator",
                     image:
                       "https://utfs.io/f/aLqPSH9rfhqDaIQnmg9rfhqD02FQVB16zxmJKIoAnEHvp954",
                   },
                   {
-                    name: "David Lee",
-                    role: "Chief Innovation Officer",
+                    name: "Robert Anderson",
+                    role: "Shipping & Receiving Coordinator",
                     image:
                       "https://utfs.io/f/aLqPSH9rfhqDaIQnmg9rfhqD02FQVB16zxmJKIoAnEHvp954",
                   },
@@ -140,103 +136,7 @@ export default function AboutPage() {
             </CardContent>
           </Card>
         </TabsContent>
-        <TabsContent value="departments">
-          <Card>
-            <CardHeader>
-              <CardTitle>Our Departments</CardTitle>
-              <CardDescription>
-                Explore our diverse research areas
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2">
-                <li>Quantum Computing and Information Sciences</li>
-                <li>Artificial Intelligence and Machine Learning</li>
-                <li>Biotechnology and Genomics</li>
-                <li>Climate Science and Sustainable Technologies</li>
-                <li>Advanced Materials and Nanotechnology</li>
-                <li>Neuroscience and Cognitive Studies</li>
-                <li>Data Science and Analytics</li>
-                <li>Robotics and Automation</li>
-              </ul>
-            </CardContent>
-          </Card>
-        </TabsContent>
       </Tabs>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-        <Card>
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <BarChart className="h-5 w-5" />
-              Research Output
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p className="text-3xl font-bold">1,000+</p>
-            <p className="text-sm text-gray-500">Published studies</p>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <Users className="h-5 w-5" />
-              Research Team
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p className="text-3xl font-bold">250+</p>
-            <p className="text-sm text-gray-500">Researchers and staff</p>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <Globe className="h-5 w-5" />
-              Global Partnerships
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p className="text-3xl font-bold">50+</p>
-            <p className="text-sm text-gray-500">
-              International collaborations
-            </p>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <Award className="h-5 w-5" />
-              Recognition
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p className="text-3xl font-bold">30+</p>
-            <p className="text-sm text-gray-500">Major awards received</p>
-          </CardContent>
-        </Card>
-      </div>
-
-      <Card>
-        <CardHeader>
-          <CardTitle>Join Our Team</CardTitle>
-          <CardDescription>
-            Explore career opportunities at the O&apos;Connor Building of
-            Engineering and Sciences
-          </CardDescription>
-        </CardHeader>
-        <CardContent>
-          <p className="mb-4">
-            We&apos;re always looking for talented individuals to join our team
-            of researchers, engineers, and support staff. If you&apos;re
-            passionate about pushing the boundaries of science and technology,
-            we&apos;d love to hear from you.
-          </p>
-          <Link href="https://jobs.rice.edu/">
-            <Button>View Open Positions</Button>
-          </Link>
-        </CardContent>
-      </Card>
       <Card className="mt-8">
         <CardHeader>
           <CardTitle>Acknowledgements</CardTitle>
@@ -252,7 +152,7 @@ export default function AboutPage() {
                 role: "Product Owner & Development Lead",
                 image:
                   "https://utfs.io/f/aLqPSH9rfhqDaIQnmg9rfhqD02FQVB16zxmJKIoAnEHvp954",
-                title: "Master of Engineering Management & Leadership - Rice University",
+                title: "Master of Engineering Management & Leadership Rice University",
               },
               {
                 name: "Swanand Khonde",

@@ -13,7 +13,7 @@ export function BookingModal({
   onClose: () => void;
 }) {
   // Google Form URL for booking spaces
-  const googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeKfHV1aNWgQEqeDAjeSuftEdZtl98_nmvQnz4Lwku4-67vgQ/viewform?embedded=true";
+  const googleFormUrl = "https://forms.office.com/Pages/ResponsePage.aspx?id=XNbwunTHQEChpg_wP9Yd1q5RzenJCrxKgY6qlGbc43NUQ1FCSFU1MVc4VFEwQlc0S0JCWTE3OEo2Ry4u&embed=true";
   
   return (
     <Dialog open={isOpen} onOpenChange={(open) => !open && onClose()}>
