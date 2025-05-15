@@ -147,7 +147,12 @@ export default function ResearchPortalPage() {
             </Link>
 
             {/* Physics */}
-            <Link href="/research-portal/urban" className="group">
+            <Link
+              href="https://physics.rice.edu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group"
+            >
               <div className="architectural-image aspect-[4/3] mb-6">
                 <Image
                   src="/Rice_Physics.png"
@@ -161,7 +166,12 @@ export default function ResearchPortalPage() {
             </Link>
 
             {/* ECE */}
-            <Link href="/research-portal/ece" className="group">
+            <Link
+              href="https://ece.rice.edu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group"
+            >
               <div className="architectural-image aspect-[4/3] mb-6">
                 <Image
                   src="/Rice_ECE.png"
@@ -172,6 +182,25 @@ export default function ResearchPortalPage() {
               </div>
               <h3 className="text-xl mb-2">ECE</h3>
               <p className="text-muted-foreground">Electrical and Computer Engineering</p>
+            </Link>
+
+            {/* SEA */}
+            <Link
+              href="https://sea.rice.edu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group"
+            >
+              <div className="architectural-image aspect-[4/3] mb-6">
+                <Image
+                  src="/Rice_SEA.png"
+                  alt="ECE Lab"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <h3 className="text-xl mb-2">SEA</h3>
+              <p className="text-muted-foreground">Shared Equipment Authority</p>
             </Link>
           </div>
         </div>

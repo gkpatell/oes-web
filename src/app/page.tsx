@@ -14,7 +14,7 @@ export default function Home() {
   const images = [
     "/oes-frontview-eve.jpeg",
     "/oes-abercrombie-carve.jpg",
-    "/oes-central-art.jpeg",
+    "/oes-crux-art.jpeg",
     "/oes-collab-floor0.jpg"
   ];
 
@@ -82,7 +82,7 @@ export default function Home() {
               <Link href="/research-portal" className="group">
                 <div className="architectural-image aspect-[4/3]">
                   <Image
-                    src="/lab-space.jpg"
+                    src="/oes-ece-place.jpeg"
                     alt="State-of-the-art laboratory"
                     fill
                     className="object-cover"
@@ -136,7 +136,7 @@ export default function Home() {
                   Developing next-generation materials for sustainable technology and engineering applications.
                 </p>
                 <Link 
-                  href="/research-portal/rami"
+                  href="/research-portal"
                   className="inline-flex items-center gap-2 nav-link"
                 >
                   Explore RAMI <ArrowRight className="h-4 w-4" />
@@ -148,7 +148,7 @@ export default function Home() {
                   Pushing the boundaries of civil research for cleaner & greener environment.
                 </p>
                 <Link 
-                  href="/research-portal/quantum"
+                  href="/research-portal"
                   className="inline-flex items-center gap-2 nav-link"
                 >
                   Explore CEE <ArrowRight className="h-4 w-4" />
@@ -160,7 +160,7 @@ export default function Home() {
                   Breaking grounds in soil studies and environmental chemical phenomena.
                 </p>
                 <Link 
-                  href="/research-portal/urban"
+                  href="/research-portal"
                   className="inline-flex items-center gap-2 nav-link"
                 >
                   Explore ChBE <ArrowRight className="h-4 w-4" />
@@ -172,7 +172,7 @@ export default function Home() {
                   Leading research in water recycling and sustainable future.
                 </p>
                 <Link 
-                  href="/research-portal/newt"
+                  href="/research-portal"
                   className="inline-flex items-center gap-2 nav-link"
                 >
                   Explore RWI <ArrowRight className="h-4 w-4" />
@@ -188,7 +188,7 @@ export default function Home() {
             <div className="flex-1">
               <h2 className="text-3xl md:text-4xl font-light mb-6">Building Highlights</h2>
               <p className="text-lg mb-6">
-                Discover the impressive features of the O'Connor Building, a $190 million project spanning 250,000 square feet. Designed with cutting-edge architecture, it offers state-of-the-art facilities and innovative spaces for research and collaboration.
+                Discover the impressive features of the O'Connor Building, spanning over an area of 250,000 square feet, designed with cutting-edge architecture, it offers state-of-the-art facilities and innovative spaces for research and collaboration.
               </p>
             </div>
             <div className="flex-1 relative h-100 md:h-80">

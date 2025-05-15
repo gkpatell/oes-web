@@ -127,7 +127,7 @@ export default function SpacesAndFacilitiesPage() {
             <Link href="/spaces-and-facilities/conference-rooms" className="group">
               <div className="architectural-image aspect-[4/3] mb-6">
                 <Image
-                  src="/oes-510-event-suite.jpg"
+                  src="/oes-510-grps.jpg"
                   alt="Conference Rooms"
                   fill
                   className="object-cover"
@@ -139,7 +139,7 @@ export default function SpacesAndFacilitiesPage() {
             <Link href="/spaces-and-facilities/study-spaces" className="group">
               <div className="architectural-image aspect-[4/3] mb-6">
                 <Image
-                  src="/oes-floor3-study.jpeg"
+                  src="/lab-desk.jpg"
                   alt="Study Spaces"
                   fill
                   className="object-cover"
@@ -151,7 +151,7 @@ export default function SpacesAndFacilitiesPage() {
             <Link href="/spaces-and-facilities/event-spaces" className="group">
               <div className="architectural-image aspect-[4/3] mb-6">
                 <Image
-                  src="/oes-attrium-floor5.jpeg"
+                  src="/oes-opening-ceremony.jpg"
                   alt="Event Spaces"
                   fill
                   className="object-cover"
