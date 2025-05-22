@@ -14,7 +14,7 @@ export default function Home() {
   const images = [
     "/oes-frontview-eve.jpeg",
     "/oes-abercrombie-carve.jpg",
-    "/oes-crux-art.jpeg",
+    "/oes-central-art.jpeg",
     "/oes-collab-floor0.jpg"
   ];
 
@@ -82,7 +82,7 @@ export default function Home() {
               <Link href="/research-portal" className="group">
                 <div className="architectural-image aspect-[4/3]">
                   <Image
-                    src="/oes-ece-place.jpeg"
+                    src="/oes-stadler-lab1.jpg"
                     alt="State-of-the-art laboratory"
                     fill
                     className="object-cover"
@@ -96,7 +96,7 @@ export default function Home() {
               <Link href="/cafe" className="group">
                 <div className="architectural-image aspect-[4/3]">
                   <Image
-                    src="/oes-floor1-sitting.JPG"
+                    src="/oes-floor-2-commons.JPG"
                     alt="Collaboration space"
                     fill
                     className="object-cover"
@@ -110,7 +110,7 @@ export default function Home() {
               <Link href="/spaces-and-facilities" className="group">
                 <div className="architectural-image aspect-[4/3]">
                   <Image
-                    src="/oes-terrace-sunset.jpeg"
+                    src="/oes-opening-ceremony.jpg"
                     alt="Event space"
                     fill
                     className="object-cover"
@@ -128,55 +128,34 @@ export default function Home() {
         {/* Research Focus */}
         <section className="py-20">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-light mb-12">Research Focus</h2>
+            <h2 className="text-3xl md:text-4xl font-light mb-3">World-Changing Research</h2>
+            <h3 className="text-muted-foreground mb-10"> The O’Connor Engineering and Science Building is designed to encourage creative collaboration. Focused on chemistry and
+materials science, coupled with the latest in machine learning and artificial intelligence. The research is focused in 4
+neighborhoods:</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div>
                 <h3 className="text-2xl font-light mb-4">Advanced Materials</h3>
-                <p className="text-muted-foreground mb-6">
-                  Developing next-generation materials for sustainable technology and engineering applications.
+                <p className="text-muted-foreground mb-2">
+                From carbon nanomaterials to photonics, Rice researchers are engineering the next generation of materials with applications in clean energy, water purification, and space systems.
                 </p>
-                <Link 
-                  href="/research-portal"
-                  className="inline-flex items-center gap-2 nav-link"
-                >
-                  Explore RAMI <ArrowRight className="h-4 w-4" />
-                </Link>
               </div>
               <div>
-                <h3 className="text-2xl font-light mb-4">Civil & Environmental Engineering</h3>
-                <p className="text-muted-foreground mb-6">
-                  Pushing the boundaries of civil research for cleaner & greener environment.
+                <h3 className="text-2xl font-light mb-4"> Future Computing</h3>
+                <p className="text-muted-foreground mb-2">
+                Faculty in science and engineering are advancing quantum research to unlock breakthroughs in computing, sensing, and secure communications for tomorrow’s technologies.
                 </p>
-                <Link 
-                  href="/research-portal"
-                  className="inline-flex items-center gap-2 nav-link"
-                >
-                  Explore CEE <ArrowRight className="h-4 w-4" />
-                </Link>
               </div>
               <div>
-                <h3 className="text-2xl font-light mb-4">Chemical & Biomolecular Technology</h3>
-                <p className="text-muted-foreground mb-6">
-                  Breaking grounds in soil studies and environmental chemical phenomena.
+                <h3 className="text-2xl font-light mb-4">Smart Communities</h3>
+                <p className="text-muted-foreground mb-2">
+                Innovations in robotics, IoT, and structural dynamics are shaping resilient, tech-enabled cities to support growing populations and mitigate climate-related challenges.
                 </p>
-                <Link 
-                  href="/research-portal"
-                  className="inline-flex items-center gap-2 nav-link"
-                >
-                  Explore ChBE <ArrowRight className="h-4 w-4" />
-                </Link>
               </div>
               <div>
-                <h3 className="text-2xl font-light mb-4">Water Resources</h3>
-                <p className="text-muted-foreground mb-6">
-                  Leading research in water recycling and sustainable future.
+                <h3 className="text-2xl font-light mb-4">Clean Energy</h3>
+                <p className="text-muted-foreground mb-2">
+                Interdisciplinary research drives sustainable energy solutions—from seismic data to solar capture—minimizing environmental impact while powering the future.
                 </p>
-                <Link 
-                  href="/research-portal"
-                  className="inline-flex items-center gap-2 nav-link"
-                >
-                  Explore RWI <ArrowRight className="h-4 w-4" />
-                </Link>
               </div>
             </div>
           </div>

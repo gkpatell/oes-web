@@ -124,10 +124,10 @@ export default function SpacesAndFacilitiesPage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-light mb-12">Our Facilities</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Link href="/spaces-and-facilities/conference-rooms" className="group">
+            <Link href="" className="group">
               <div className="architectural-image aspect-[4/3] mb-6">
                 <Image
-                  src="/oes-510-grps.jpg"
+                  src="/oes-floor3-conference1.jpg"
                   alt="Conference Rooms"
                   fill
                   className="object-cover"
@@ -136,10 +136,10 @@ export default function SpacesAndFacilitiesPage() {
               <h3 className="text-xl mb-2">Conference Rooms</h3>
               <p className="text-muted-foreground">High-tech spaces equipped with advanced presentation and conferencing capabilities.</p>
             </Link>
-            <Link href="/spaces-and-facilities/study-spaces" className="group">
+            <Link href="" className="group">
               <div className="architectural-image aspect-[4/3] mb-6">
                 <Image
-                  src="/lab-desk.jpg"
+                  src="/oes-study-space2.JPG"
                   alt="Study Spaces"
                   fill
                   className="object-cover"
@@ -148,10 +148,10 @@ export default function SpacesAndFacilitiesPage() {
               <h3 className="text-xl mb-2">Study Spaces</h3>
               <p className="text-muted-foreground">Quiet areas designed for focused individual work and collaborative study sessions.</p>
             </Link>
-            <Link href="/spaces-and-facilities/event-spaces" className="group">
+            <Link href="" className="group">
               <div className="architectural-image aspect-[4/3] mb-6">
                 <Image
-                  src="/oes-opening-ceremony.jpg"
+                  src="/oes-floor5-rows1.JPG"
                   alt="Event Spaces"
                   fill
                   className="object-cover"
@@ -170,14 +170,14 @@ export default function SpacesAndFacilitiesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div className="relative aspect-[4/3] overflow-hidden">
               <Image
-                src="/oes-lab-space.jpg"
-                alt="Research Facilities"
+                src="/oes-sidewalk-abercombie.JPG"
+                alt="sidewalk-abercombie"
                 fill
                 className="object-cover"
               />
             </div>
             <div>
-              <h2 className="text-3xl font-light mb-8">Research Facilities</h2>
+              <h2 className="text-3xl font-light mb-8">The O'Connor Building</h2>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="bg-primary/10 p-2 rounded-full mt-1">

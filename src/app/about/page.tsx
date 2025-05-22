@@ -69,12 +69,13 @@ export default function AboutPage() {
                   <strong>1964:</strong> Biomedical Lab of Willaim Akers makes its home in Abercrombie Lab to develop the first artificial heart.
                 </li>
                 <li>
-                  <strong>2015:</strong> Launched our first international
-                  satellite research lab in collaboration with global partners.
+                  <strong>Fast Forward to July 2020:</strong> Beginning of planning and designing of the new facility.
                 </li>
                 <li>
-                  <strong>2020:</strong> Celebrated 35 years of groundbreaking
-                  research with over 1,000 published studies and 50 patents.
+                  <strong>2021:</strong> Groundbreaking of the new facility to be named as Ralph S. O'Connor Building of Engineering Sciences.
+                </li>
+                <li>
+                  <strong>2023:</strong> September 14th - Grand Opening of the O'Connor Building by Rice President Reginald DesRoches & Becky O'Connor herself.
                 </li>
               </ul>
             </CardContent>
@@ -137,6 +138,99 @@ export default function AboutPage() {
           </Card>
         </TabsContent>
       </Tabs>
+      {/* Featured Spaces */}
+      <section>
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl md:text-4xl font-light mb-12">Through The Eyes</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <Link href="" className="group">
+                <div className="architectural-image aspect-[4/3]">
+                  <Image
+                    src="/oes-abercrombie.jpg"
+                    alt="State-of-the-art laboratory"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="mt-4">
+                  <h3 className="text-xl mb-2">Abercrombie Laboratory (1950s)</h3>
+                  <p className="text-muted-foreground">A cornerstone of Rice Engineering, home to the earliest advances in biomedical and computing research.</p>
+                </div>
+              </Link>
+              <Link href="" className="group">
+                <div className="architectural-image aspect-[4/3]">
+                  <Image
+                    src="/oes-abercrombie2.jpg"
+                    alt="Collaboration space"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="mt-4">
+                  <h3 className="text-xl mb-2">Facing the Engineering Quad</h3>
+                  <p className="text-muted-foreground">The original lab’s presence stood at the heart of campus innovation for over 70 years.</p>
+                </div>
+              </Link>
+              <Link href="" className="group">
+                <div className="architectural-image aspect-[4/3]">
+                  <Image
+                    src="/oes-groundbreaking1.jpg"
+                    alt="Event space"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="mt-4">
+                  <h3 className="text-xl mb-2">Demolition & Groundbreaking (2021)</h3>
+                  <p className="text-muted-foreground">Abercrombie makes way for the next era - to mark the beginning of transformation.</p>
+                </div>
+              </Link>
+              <Link href="" className="group">
+                <div className="architectural-image aspect-[4/3]">
+                  <Image
+                    src="/oes-construct-duncan1.jpg"
+                    alt="Event space"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="mt-4">
+                  <h3 className="text-xl mb-2">Construction in Progress</h3>
+                  <p className="text-muted-foreground">Progress through 2022 captured the rising form of a new hub for engineering and sciences.</p>
+                </div>
+              </Link>
+              <Link href="" className="group">
+                <div className="architectural-image aspect-[4/3]">
+                  <Image
+                    src="/oes-construct-bird1.jpg"
+                    alt="Event space"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="mt-4">
+                  <h3 className="text-xl mb-2">A New Identity</h3>
+                  <p className="text-muted-foreground">The Ralph S. O’Connor Building reflects Rice’s forward-thinking commitment to interdisciplinary research.</p>
+                </div>
+              </Link>
+              <Link href="" className="group">
+                <div className="architectural-image aspect-[4/3]">
+                  <Image
+                    src="/oes-opening-becky.jpg"
+                    alt="Event space"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="mt-4">
+                  <h3 className="text-xl mb-2">Grand Opening (2023)</h3>
+                  <p className="text-muted-foreground">Inaugurated by President Reginald DesRoches and Becky O’Connor on September 14th, 2023.</p>
+                </div>
+              </Link>
+              
+            </div>
+          </div>
+        </section>
       <Card className="mt-8">
         <CardHeader>
           <CardTitle>Acknowledgements</CardTitle>
